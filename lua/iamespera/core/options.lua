@@ -35,6 +35,9 @@ opt.tabstop = 4
 opt.softtabstop = 4
 opt.expandtab = true
 
+-- disable mouse
+opt.mouse = ''
+
 -- search
 opt.hlsearch = true
 

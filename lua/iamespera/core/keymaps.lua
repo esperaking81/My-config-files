@@ -3,6 +3,7 @@ local keymap = vim.keymap
 -- general
 keymap.set("n", "<leader>h", ":nohl<cr>")
 keymap.set('n', 'x', '"_x') -- do not copy delete into register
+keymap.set('n', ';', ':') -- quickly switch to command mode
 
 -- quickly insert mode
 keymap.set('i', 'jk', '<ESC>')
@@ -35,9 +36,7 @@ keymap.set('n', 'dw', 'vb"_d')
 keymap.set('n', '<C-s>', ':w!<cr>')
 
 --Flutter tools
-keymap.set('n', '<C-f>', ':Telescope flutter commands <cr>')
-keymap.set('n', '<leader>f', ':TestFile<cr>')
-keymap.set('n', '<leader>s', ':TestSuite<cr>')
+keymap.set('n', '<C-f>', ':Telescope flutter commands<cr>')
 
 -- tab management
 keymap.set('n', 'te', ':tabedit') -- New tab
