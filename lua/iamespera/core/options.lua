@@ -2,9 +2,11 @@ local opt = vim.opt
 
 -- vim.cmd("autocmd!")
 
-vim.scriptencoding = 'utf-8'
-opt.encoding = 'utf-8'
-opt.fileencoding = 'utf-8'
+vim.g.mapleader = " "
+
+vim.scriptencoding = "utf-8"
+opt.encoding = "utf-8"
+opt.fileencoding = "utf-8"
 
 opt.swapfile = false
 opt.backup = false
@@ -16,10 +18,9 @@ opt.title = true
 opt.syntax = "on"
 opt.hidden = true
 
-
 -- lines
 vim.wo.number = true
-opt.wrap = false 
+opt.wrap = false
 vim.opt.relativenumber = true
 
 -- windows
@@ -36,7 +37,7 @@ opt.softtabstop = 4
 opt.expandtab = true
 
 -- disable mouse
-opt.mouse = ''
+opt.mouse = ""
 
 -- search
 opt.hlsearch = true
@@ -45,12 +46,12 @@ opt.hlsearch = true
 opt.showcmd = true
 opt.cmdheight = 1
 
-opt.shell = 'zsh'
+opt.shell = "zsh"
 
 -- backup
 opt.backup = false
-opt.backupskip = { '/tmp/*', '/private/tmp/*' }
-opt.inccommand = 'split'
+opt.backupskip = { "/tmp/*", "/private/tmp/*" }
+opt.inccommand = "split"
 
 opt.ignorecase = true
 opt.smartcase = tru
@@ -58,7 +59,6 @@ opt.smartcase = tru
 -- miscelanious
 opt.scrolloff = 10
 opt.smarttab = true
-
 
 -- cursor line
 opt.cursorline = true
