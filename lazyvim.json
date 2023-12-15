@@ -1,0 +1,10 @@
+{
+  "extras": [
+    "lazyvim.plugins.extras.coding.tabnine",
+    "lazyvim.plugins.extras.editor.mini-files"
+  ],
+  "news": {
+    "NEWS.md": "2123"
+  },
+  "version": 2
+}
