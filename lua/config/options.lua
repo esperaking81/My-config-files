@@ -4,6 +4,7 @@
 
 -- disble mouse
 vim.opt.mouse = ""
+vim.opt.background = "dark"
 
 -- Undercurl
 vim.cmd([[let &t_Cs = "\e[4:3m"]])

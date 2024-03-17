@@ -16,4 +16,7 @@ return {
       },
     })
   end,
+  dependencies = {
+    { "RobertBrunhage/flutter-riverpod-snippets" },
+  },
 }
