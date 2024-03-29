@@ -12,6 +12,7 @@ return {
       lsp = {
         settings = {
           renameFileWithClasses = "always",
+          analysisExcludedFolders = { "~/.pub-cache/hosted/pub.dev/" },
         },
       },
     })

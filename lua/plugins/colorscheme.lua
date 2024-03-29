@@ -2,7 +2,7 @@ return {
   {
 
     "catppuccin/nvim",
-    opts = function()
+    config = function()
       require("catppuccin").setup({
         {
           term_colors = true,
