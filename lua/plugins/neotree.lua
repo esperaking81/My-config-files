@@ -18,15 +18,27 @@ return {
   config = function()
     require("neo-tree").setup({
       window = {
-        width = 30,
+        width = 40,
+        position = "right",
       },
       event_handlers = {
         {
           event = "file_opened",
           handler = function(file_path)
             --auto close
-            require("neo-tree.command").execute({ action = "close" })
+            require("neo-tree.command").execute({
+              action = "close",
+              reveal_file = file_path, -- path to file or folder to reveal
+            })
           end,
+        },
+      },
+      default_component_configs = {
+        indent = {
+          with_expanders = true,
+          expander_collapsed = "",
+          expander_expanded = "",
+          expander_highlight = "NeoTreeExpander",
         },
       },
     })

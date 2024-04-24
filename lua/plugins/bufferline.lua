@@ -2,7 +2,6 @@ return {
   "akinsho/bufferline.nvim",
   opts = {
     options = {
-      separator_style = "padded_slope",
       offsets = {
         {
           filetype = "NvimTree",
